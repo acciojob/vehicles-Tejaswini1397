@@ -37,8 +37,9 @@ public class F1 extends Car {
         }else{
             newGear=6;
         }
-        changeGear(newGear);
+
         if (newSpeed > 0) {
+            changeGear(newGear);
             changeSpeed(newSpeed, getCurrentDirection());
         }
 
